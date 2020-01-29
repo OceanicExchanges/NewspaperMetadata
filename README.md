@@ -1,6 +1,15 @@
 # NewspaperMetadata
 
-Metadata, automatically and manually generated, about historical newspapers.
+This repository contains automatically and manually generated metadata about historical newspapers.  Besides merging related fields from the source data	, the primary addition we made in this project was standardizing the identifiers for places of publication, following the Library of Congress in linking to records in (https://dbpedia.org/)[DBpedia].  We then joined these identifiers with DBpedia to include point longitude and latitude.
+
+The basic metadata comes from the public catalogues of several newspaper digitization and aggregation projects:
+
+* Chronicling America
+* Trove
+* Gale US and UK newspapers
+* Europeana
+* Delpher
+* American Periodicals Series
 
 Currently, the JSON and CSV files contain the following fields:
 
